@@ -1,0 +1,36 @@
+@media screen and (min-width: 1200px) {
+  .height {
+    min-height: 84vh;
+  }
+}
+
+@media screen and (min-device-width: 768px) and (max-device-width: 992px) {
+  .height {
+    min-height: 90vh;
+  }
+}
+
+@media screen and (min-device-width: 400px) and (max-device-width: 500px) {
+  .height {
+    min-height: 83vh;
+  }
+}
+@media only screen and (max-device-width: 360px) {
+  .height {
+    min-height: 80vh;
+  }
+}
+.height {
+  min-height: 80vh;
+}
+.diplay-type {
+  height: 80vh;
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  flex-wrap: wrap;
+}
+.container-fluid {
+  padding-left: 0px !important;
+  padding-right: 0px !important;
+}

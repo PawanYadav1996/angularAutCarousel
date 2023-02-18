@@ -1,0 +1,13 @@
+<div class="height">
+  <div class="row" *ngIf="featuredEvent?.length > 0">
+    <app-auto-carousel-view
+      [images]="featuredEvent"
+      [autoSlide]="true"
+      [slideInterval]="4000"
+      [controls]="true"
+      [eventType]="'banner'"
+      [countingValue]="true"
+      [showDots]="true"
+    ></app-auto-carousel-view>
+  </div>
+</div>
